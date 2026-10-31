@@ -6,7 +6,9 @@ export type CountyCompare = {
   baseline: number
   ratio: number
   index: number
-  margin: number
+  marginPoints: number
+  shareChangePoints: number
+  contributionPoints: number
   flag?: string
 }
 
@@ -18,7 +20,9 @@ export type CompareRead = {
   early2026: number
   baseline: number
   statewideRatio: number
-  marginWeightedExtra: number
+  baselineMarginPoints: number
+  impliedMarginPoints: number
+  shiftPoints: number
   counties: readonly CountyCompare[]
 }
 
@@ -39,8 +43,9 @@ export function rankCounties(input: {
   counties: readonly CountyInput[]
 }): CompareRead {
   // index = (early2026 / baseline) / (sum2026 / sumBaseline).
-  // margin = (rep - dem) / (rep + dem).
-  // marginWeightedExtra = sum((early2026 - statewideRatio * baseline) * margin).
+  // marginPoints = 100 * (rep - dem) / (rep + dem). Positive is Republican.
+  // shiftPoints = implied 2026 margin minus baseline margin, weights only.
+  // contributionPoints sum to shiftPoints.
   // Sort by index descending, then name ascending.
   throw new Error("not implemented")
 }

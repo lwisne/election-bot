@@ -7,7 +7,9 @@ export type CountyCompare = {
   baseline: number
   ratio: number
   index: number
-  margin: number
+  marginPoints: number
+  shareChangePoints: number
+  contributionPoints: number
   flag?: string
 }
 
@@ -19,7 +21,9 @@ export type CompareRead = {
   early2026: number
   baseline: number
   statewideRatio: number
-  marginWeightedExtra: number
+  baselineMarginPoints: number
+  impliedMarginPoints: number
+  shiftPoints: number
   counties: readonly CountyCompare[]
 }
 
@@ -73,20 +77,27 @@ export function rankCounties(input: {
     throw new Error("statewide early-vote ratio is 0")
   }
 
-  let marginWeightedExtra = 0
+  let baselineMarginPoints = 0
+  let impliedMarginPoints = 0
   const counties: CountyCompare[] = []
   for (const county of input.counties) {
     const ratio = county.early2026 / county.baseline
     const margin = (county.rep - county.dem) / (county.rep + county.dem)
-    const extra = county.early2026 - statewideRatio * county.baseline
-    marginWeightedExtra += extra * margin
+    const share2026 = county.early2026 / early2026
+    const shareBaseline = county.baseline / baseline
+    const shareChangePoints = (share2026 - shareBaseline) * 100
+    const contributionPoints = margin * shareChangePoints
+    baselineMarginPoints += margin * shareBaseline * 100
+    impliedMarginPoints += margin * share2026 * 100
     const row: CountyCompare = {
       name: county.name,
       early2026: county.early2026,
       baseline: county.baseline,
       ratio,
       index: ratio / statewideRatio,
-      margin,
+      marginPoints: margin * 100,
+      shareChangePoints,
+      contributionPoints,
     }
     if (county.flag) row.flag = county.flag
     counties.push(row)
@@ -107,7 +118,9 @@ export function rankCounties(input: {
     early2026,
     baseline,
     statewideRatio,
-    marginWeightedExtra,
+    baselineMarginPoints,
+    impliedMarginPoints,
+    shiftPoints: impliedMarginPoints - baselineMarginPoints,
     counties,
   }
 }

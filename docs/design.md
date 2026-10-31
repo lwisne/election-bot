@@ -44,14 +44,19 @@ index_c = ratio_c / statewideRatio
 
 Counties sort by `index` descending, then by name. A county with no 2024 early vote fails the read.
 
-**Margin.** From the MIT county presidential file for 2024. `margin = (rep - dem) / (rep + dem)`. `totalvotes` is not the denominator. The summary line is optional context, not a second model.
+**Margin.** From the MIT county presidential file for 2024. `margin = (rep - dem) / (rep + dem)`. Reported figures are that share times 100, in percentage points. Positive is Republican.
+
+The statewide numbers hold each county's margin fixed and change only the weights. The baseline electorate weights counties by their share of baseline early vote. The implied 2026 electorate weights the same margins by their share of 2026 early vote. The shift is the implied margin minus the baseline margin. A negative shift is a move toward Democrats. This is a composition effect. It says which counties are turning out. It does not say that a county changed its partisanship.
 
 ```
-extra_c = early2026_c - statewideRatio * baseline_c
-marginWeightedExtra = sum(extra_c * margin_c)
+baselineMargin = 100 * sum(margin_c * baselineShare_c)
+impliedMargin = 100 * sum(margin_c * share2026_c)
+shift = impliedMargin - baselineMargin
+shareChange_c = 100 * (share2026_c - baselineShare_c)
+contribution_c = margin_c * shareChange_c
 ```
 
-Uniform pace makes every extra zero, so the summary is zero. The summary is in ballots times a margin. It is not added to a vote total.
+The county contributions sum to the statewide shift.
 
 **Sources.** County files are `county_data_{ST}.csv` for 2024 and `{ST}_county.csv` for 2026, under `https://election.lab.ufl.edu/data-downloads/earlyvote/`. The 2026 statewide `US.csv` supplies `last_update` and the `voted_all` checksum. County sums must match that statewide total. The presidential file is `https://api.electiondata.dev/v1/county-president/table/2024.csv`. Join on the county name after trimming, uppercasing, and removing one trailing ` COUNTY`. `ru_id` is not FIPS. Wayne is 23082 in the UF file and 26163 in the MIT file. The join does not use `ru_id`.
 

@@ -23,12 +23,24 @@ test("ranks counties by index, then name", () => {
   assert.equal(read.early2026, 150)
   assert.equal(read.baseline, 300)
   assert.equal(read.statewideRatio, 0.5)
-  assert.equal(read.marginWeightedExtra, 7.5)
-  assert.deepEqual(read.counties, [
-    { name: "A", early2026: 60, baseline: 100, ratio: 0.6, index: 1.2, margin: 0.5 },
-    { name: "C", early2026: 50, baseline: 100, ratio: 0.5, index: 1, margin: 0 },
-    { name: "B", early2026: 40, baseline: 100, ratio: 0.4, index: 0.8, margin: -0.25 },
-  ])
+  assert.ok(Math.abs(read.baselineMarginPoints - 25 / 3) < 1e-9)
+  assert.ok(Math.abs(read.impliedMarginPoints - 40 / 3) < 1e-9)
+  assert.ok(Math.abs(read.shiftPoints - 5) < 1e-9)
+  const contributionSum = read.counties.reduce((sum, county) => sum + county.contributionPoints, 0)
+  assert.ok(Math.abs(contributionSum - read.shiftPoints) < 1e-9)
+  assert.deepEqual(
+    read.counties.map((county) => county.name),
+    ["A", "C", "B"],
+  )
+  const byName = Object.fromEntries(read.counties.map((county) => [county.name, county]))
+  assert.ok(Math.abs(byName.A.marginPoints - 50) < 1e-9)
+  assert.ok(Math.abs(byName.A.shareChangePoints - 20 / 3) < 1e-9)
+  assert.ok(Math.abs(byName.A.contributionPoints - 10 / 3) < 1e-9)
+  assert.ok(Math.abs(byName.B.marginPoints - -25) < 1e-9)
+  assert.ok(Math.abs(byName.B.shareChangePoints - -20 / 3) < 1e-9)
+  assert.ok(Math.abs(byName.B.contributionPoints - 5 / 3) < 1e-9)
+  assert.ok(Math.abs(byName.C.shareChangePoints) < 1e-9)
+  assert.ok(Math.abs(byName.C.contributionPoints) < 1e-9)
 })
 
 test("breaks index ties by name", () => {
