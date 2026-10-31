@@ -6,8 +6,8 @@ if (args.length !== 1 || args[0].startsWith("-")) {
   process.exitCode = 1
 } else {
   try {
-    const read = await compareEarly(args[0])
-    process.stdout.write(render(read))
+    const reads = await compareEarly(args[0])
+    process.stdout.write(reads.map(render).join("\n"))
   } catch (err) {
     const message = err instanceof Error ? err.message : String(err)
     process.stderr.write(`${message}\n`)
@@ -20,12 +20,13 @@ function render(read: CompareRead): string {
 }
 
 function renderTable(read: CompareRead): string {
-  const header = ["rank", "county", "early_2026", "early_2024", "ratio", "index", "margin"]
+  const baselineHeader = `early_${read.baselineYear}`
+  const header = ["rank", "county", "early_2026", baselineHeader, "ratio", "index", "margin"]
   const rows = read.counties.map((county, index) => [
     String(index + 1),
     county.name,
     formatGrouped(county.early2026),
-    formatGrouped(county.early2024),
+    formatGrouped(county.baseline),
     county.ratio.toFixed(3),
     county.index.toFixed(3),
     formatMargin(county.margin),
@@ -43,13 +44,16 @@ function renderTable(read: CompareRead): string {
       )
       .join("  ")
 
-  return [
-    `${read.state} early vote vs 2024 final`,
-    `as of ${read.asOf}`,
-    `2026 ${formatGrouped(read.early2026)}  2024 ${formatGrouped(read.early2024)}  ratio ${read.statewideRatio.toFixed(3)}  margin-weighted extra ${formatGrouped(read.marginWeightedExtra)}`,
-    line(header),
-    ...rows.map(line),
-  ].join("\n")
+  const lines = [
+    `${read.state} early vote vs ${read.baselineYear} final`,
+    `as of ${read.asOf}. baseline as of ${read.baselineAsOf}`,
+    `2026 ${formatGrouped(read.early2026)}  ${read.baselineYear} ${formatGrouped(read.baseline)}  ratio ${read.statewideRatio.toFixed(3)}  margin-weighted extra ${formatGrouped(read.marginWeightedExtra)}`,
+  ]
+  for (const county of read.counties) {
+    if (county.flag) lines.push(`flag ${county.name}: ${county.flag}. Kept in the ranking.`)
+  }
+  lines.push(line(header), ...rows.map(line))
+  return lines.join("\n")
 }
 
 function formatGrouped(value: number): string {

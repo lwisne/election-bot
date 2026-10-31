@@ -10,20 +10,21 @@ Michigan has no party registration. The county files carry a total, `voted_all`,
 
 ```bash
 node --experimental-strip-types src/main.ts MI
+node --experimental-strip-types src/main.ts TX
 ```
 
-The command prints a ranked table, then the same read as JSON. Rank 1 is the county furthest ahead of the statewide ratio.
+Each command prints a ranked table, then the same read as JSON. Texas prints two reads. 2026 against the 2024 final early vote comes first. 2026 against the 2022 final early vote comes second. Rank 1 is the county furthest ahead of the statewide ratio.
 
 `compareEarly` fetches and joins. `rankCounties` is the pure comparison the table prints.
 
 ```ts
 import { compareEarly } from "../src/compare.ts"
 
-const read = await compareEarly("MI")
+const [read] = await compareEarly("MI")
 const top = read.counties[0]
 ```
 
-`top.index` is above 1 when that county's 2026 early vote is a larger share of its 2024 early vote than the state's is. `top.margin` is the 2024 two-party presidential margin. Positive means Republican.
+`top.index` is above 1 when that county's 2026 early vote is a larger share of its baseline early vote than the state's is. `top.margin` is the 2024 two-party presidential margin. Positive means Republican.
 
 ## Shape
 
@@ -34,8 +35,8 @@ const top = read.counties[0]
 **Comparison.** One index. These two descriptions are the same number.
 
 ```
-ratio_c = early2026_c / early2024_c
-statewideRatio = sum(early2026) / sum(early2024)
+ratio_c = early2026_c / baseline_c
+statewideRatio = sum(early2026) / sum(baseline)
 index_c = ratio_c / statewideRatio
 ```
 
@@ -46,7 +47,7 @@ Counties sort by `index` descending, then by name. A county with no 2024 early v
 **Margin.** From the MIT county presidential file for 2024. `margin = (rep - dem) / (rep + dem)`. `totalvotes` is not the denominator. The summary line is optional context, not a second model.
 
 ```
-extra_c = early2026_c - statewideRatio * early2024_c
+extra_c = early2026_c - statewideRatio * baseline_c
 marginWeightedExtra = sum(extra_c * margin_c)
 ```
 
@@ -56,7 +57,9 @@ Uniform pace makes every extra zero, so the summary is zero. The summary is in b
 
 One unmatched name fails the read. The UF license is CC BY-NC-ND 4.0. The program does not commit those CSVs.
 
-**Left out.** Same-day status, days-out, pair files, a content-addressed archive, residual anchors, age, gender, mode, and party registration. Another state is the same URLs with a different abbreviation, as long as its county names join to the MIT file.
+**Texas.** UF has a 2026 county file and no 2024 county file. The 2024 and 2022 baselines are the Texas Secretary of State cumulative reports committed in `data/tx/`. The early total there is `Cumulative In-Person And Mail Voters`. The TOTAL row is the checksum, not a county. County names drop spaces before the join, so MIT `LA SALLE` matches `LASALLE`. 2022 HALE stays in the ranking and carries a flag because the source in-person total is 369.
+
+**Left out.** Same-day status, days-out, pair files, a content-addressed archive, residual anchors, age, gender, mode, and party registration. A state with both UF county files uses the Michigan path. Texas is the one state with local baselines.
 
 ## Open questions
 
