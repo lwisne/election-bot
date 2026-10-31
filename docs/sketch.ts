@@ -1,6 +1,4 @@
-// Contract for the implementation. Bodies throw on purpose.
 // Copy src/read.ts through readRace, and src/main.ts through main.
-// Export readRace and the types on RaceRead. Do not export parsers, pull, or the pack.
 
 export const IMPLEMENTED_STATES = ["MI"] as const
 export type ImplementedState = (typeof IMPLEMENTED_STATES)[number]
@@ -293,7 +291,6 @@ function calendarDateFromUf(raw: string): CalendarDate {
 
 function daysOut(election: CalendarDate, asOf: CalendarDate): DaysOut {
   // Calendar days, election minus asOf, using UTC date parts so DST does not matter.
-  // 2024-11-05 minus 2024-11-05 is 0. 2026-11-03 minus 2026-10-30 is 4.
   throw new Error("not implemented")
 }
 
@@ -309,7 +306,6 @@ function assertNever(value: never): never {
 function countyUrl(cycle: EarlyCycle, state: ImplementedState): string {
   // 2024: https://election.lab.ufl.edu/data-downloads/earlyvote/2024/county_data_{STATE}.csv
   // 2026: https://election.lab.ufl.edu/data-downloads/earlyvote/2026/{STATE}_county.csv
-  // No date parameter. A dated county path 404s, and earlyvote/2022/ 404s.
   throw new Error("not implemented")
 }
 
@@ -363,7 +359,6 @@ function parseMi2024(csvText: string): UnreportedFile {
   // There is no in-person series in this file.
   // Same forbidden party and race headers. Same age and gender sum check, then drop those columns.
   // Ignore return_rate. This file has no ru_id.
-  // Return kind party_unreported.
   throw new Error("not implemented")
 }
 
@@ -423,7 +418,6 @@ const STATE_PACKS = {
 function applyNameRule(rule: NameRule, rawName: string): string {
   // uppercase_trim: Unicode uppercase, collapsed internal space, trimmed.
   // strip_county_suffix: uppercase_trim, then remove one trailing " COUNTY".
-  // Apply the same rule to the UF name and the MEDSL name.
   switch (rule) {
     case "uppercase_trim":
     case "strip_county_suffix":
@@ -449,8 +443,6 @@ function registration(
   counties: readonly [ReportedCounty, ...ReportedCounty[]],
 ): PartyView & { kind: "registration_not_votes" } {
   // Sum dem, rep, and noneOrMinor. Do not multiply by MarginShare.
-  // The Michigan parsers return UnreportedCounty, so they cannot call this.
-  // differentialPace does not take the result.
   throw new Error("not implemented")
 }
 
@@ -464,8 +456,6 @@ function differentialPace(
   // margin_c = (rep_c - dem_c) / (rep_c + dem_c). contestBallots is not this denominator.
   // marginWeightedExtraEarly = sum(extra_c * margin_c).
   // shareOfOwnFinalEarly_c = currentEarly_c / baselineFinalEarly_c.
-  // comparedWith is 2024_final_snapshot.
-  // Age, gender, mode, and party registration are not parameters.
   throw new Error("not implemented")
 }
 
@@ -492,12 +482,10 @@ function findSameDay(input: {
   // Zero matches: unavailable, no_stored_snapshot_at_matching_days_out.
   // More than one: unavailable, ambiguous_stored_snapshots. Do not pick one.
   // Do not scale the final file to invent a same-day snapshot.
-  // A comparable result does not change PaceModel.comparedWith.
   throw new Error("not implemented")
 }
 
 function openRequest(raw: { state: string; cacheDir: string }): RaceRequest | ReadError {
-  // state must be a member of IMPLEMENTED_STATES.
   // cacheDir must be non-empty and must not contain "://".
   // parseArgs and readRace both call this function.
   throw new Error("not implemented")
@@ -508,7 +496,6 @@ export async function readRace(raw: {
   cacheDir: string
 }): Promise<RaceResult> {
   // openRequest. On a ReadError, return it. Trust the narrowed request after that.
-  // pack = STATE_PACKS[request.state].
   // Sequential pulls, cacheDir from the request, now from the clock:
   //   statewide 2026, statewide 2024, county URL for each pack.columns entry, PRESIDENTIAL_COUNTY_URL.
   // After both bodies of a cycle are stored, recordPair.
@@ -519,13 +506,10 @@ export async function readRace(raw: {
   // Normalize MEDSL names and UF names with pack.nameRule.
   // Drop UF rows isDropped allows. Any other unmatched name is unjoined_county.
   // One miss fails the state. Build a non-empty PaceInput list keyed by MEDSL CountyId.
-  // differentialPace, then residualOf twice.
   // ufTurn2022 reads Statewide2026.turn2022.
   // medslPresident2024 sums MedslCounty.contestBallots once per county.
   // PARSERS values return UnreportedFile, so party is { kind: "not_reported" }.
-  // Do not call registration.
   // contest.role is proxy_for_ballot_offices. ballotOffices comes from the pack.
-  // sameDay comes from findSameDay. withheld is WITHHELD.
   // upstreamSource and upstreamNote come from the 2026 statewide row.
   // sourceNote is copied onto each SnapshotMeta and is not an input to either model.
   throw new Error("not implemented")
