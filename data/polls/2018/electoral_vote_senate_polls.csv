@@ -1,0 +1,406 @@
+Day,Len,State,EV,Dem,GOP,Ind,Date,,,,,,,,Pollster
+317.0,1,Arizona,,50,48,,Nov 13,,,,,,,,Election 2018-1
+306.5,2,Arizona,,48,49,,Nov 03,,,,,,,,OH Predictive Insights-2
+306.0,3,Arizona,,49,48,,Nov 03,,,,,,,,Emerson Coll.-3
+301.5,4,Arizona,,52,48,,Oct 30,,,,,,,,Vox Populi-4
+301.0,3,Arizona,,46,46,,Oct 29,,,,,,,,Fox News-3
+301.0,7,Arizona,,43,48,,Oct 31,,,,,,,,Harris Interactive-7
+299.5,6,Arizona,,51,47,,Oct 29,,,,,,,,SSRS-6
+298.0,5,Arizona,,47,44,06,Oct 27,,,,,,,,Marist-5
+297.5,4,Arizona,,47,44,,Oct 26,,,,,,,,YouGov-4
+295.5,2,Arizona,,45,52,,Oct 23,,,,,,,,OH Predictive Insights-2
+294.5,10,Arizona,,46,48,,Oct 26,,,,,,,,Ipsos-10
+289.5,2,Arizona,,47,41,,Oct 17,,,,,,,,Data Orbital-2
+289.0,3,Arizona,,46,47,,Oct 17,,,,,,,,Siena Coll.-3
+276.5,4,Arizona,,47,44,,Oct 05,,,,,,,,YouGov-4
+274.5,2,Arizona,,41,47,,Oct 02,,,,,,,,OH Predictive Insights-2
+273.5,4,Arizona,,47,45,,Oct 02,,,,,,,,Fox News-4
+271.5,4,Arizona,,45,42,,Sep 30,,,,,,,,Suffolk U.-4
+263.0,3,Arizona,,45,39,,Sep 21,,,,,,,,Emerson Coll.-3
+261.0,5,Arizona,,48,45,,Sep 20,,,,,,,,Marist Coll.-5
+260.5,16,Arizona,,47,41,,Sep 25,,,,,,,,Latino Decisions-16
+256.0,5,Arizona,,50,43,,Sep 15,,,,,,,,SSRS-5
+252.5,4,Arizona,,47,44,,Sep 11,,,,,,,,Fox News-4
+252.5,10,Arizona,,47,44,,Sep 14,,,,,,,,Ipsos-10
+248.5,2,Arizona,,46,49,,Sep 06,,,,,,,,OH Predictive Insights-2
+205.0,3,Arizona,,48,44,,Jul 25,,,,,,,,OH Predictive Insights-3
+172.5,2,Arizona,,40,32,,Jun 22,,,,,,,,Emerson Coll.-2
+171.5,4,Arizona,,41,34,,Jun 22,,,,,,,,YouGov-4
+170.0,5,Arizona,,49,38,,Jun 21,,,,,,,,Marist Coll.-5
+100.5,2,Arizona,,48,42,,Apr 11,,,,,,,,OH Predictive Insights-2
+ 74.5,2,Arizona,,46,41,,Mar 16,,,,,,,,PPP-2
+317.0,1,California,,54,46,,Nov 13,,,,,,,,Election 2018-1
+305.5,2,California,,50,36,,Nov 02,,,,,,,,SurveyUSA-2
+300.5,6,California,,41,35,,Oct 30,,,,,,,,Probolsky Research-6
+295.0,7,California,,45,36,,Oct 25,,,,,,,,UC Berkeley-7
+291.0,3,California,,41,23,,Oct 19,,,,,,,,Emerson Coll.-3
+290.0,15,California,,36,29,,Oct 24,,,,,,,,YouGov-15
+289.5,10,California,,43,27,,Oct 21,,,,,,,,Public Policy Inst. of Calif.-10
+286.0,3,California,,40,26,,Oct 14,,,,,,,,SurveyUSA-3
+278.5,2,California,,43,30,,Oct 06,,,,,,,,1st Tuesday Campaigns-2
+273.5,28,California,,35,22,,Oct 14,,,,,,,,USC-28
+256.5,10,California,,40,29,,Sep 18,,,,,,,,Public Policy Inst. of Calif.-10
+252.5,10,California,,44,24,,Sep 14,,,,,,,,Ipsos-10
+243.0,5,California,,37,29,,Sep 02,,,,,,,,Probolsky Research-5
+193.5,10,California,,46,24,,Jul 17,,,,,,,,Public Policy Inst. of Calif.-10
+177.5,2,California,,46,24,,Jun 27,,,,,,,,SurveyUSA-2
+162.5,12,California,,32,16,,Jun 17,,,,,,,,USC-12
+134.0,7,California,,41,17,,May 17,,,,,,,,Public Policy Inst. of Calif.-7
+ 25.5,10,California,,46,17,,Jan 30,,,,,,,,Public Policy Inst. of Calif.-10
+317.0,1,Connecticut,,59,40,01,Nov 13,,,,,,,,Election 2018-1
+301.0,3,Connecticut,,55,35,,Oct 29,,,,,,,,Emerson Coll.-3
+298.0,7,Connecticut,,56,41,,Oct 28,,,,,,,,Quinnipiac U.-7
+278.5,6,Connecticut,,57,42,,Oct 08,,,,,,,,Quinnipiac U.-6
+230.5,6,Connecticut,,59,31,,Aug 21,,,,,,,,Quinnipiac U.-6
+317.0,1,Delaware,,60,38,01,Nov 13,,,,,,,,Election 2018-1
+257.0,7,Delaware,,61,24,,Sep 17,,,,,,,,U. of Delaware-7
+317.0,1,Florida,,49,50,,Nov 13,,,,,,,,Election 2018-1
+307.5,2,Florida,,50,46,,Nov 04,,,,,,,,St. Pete Polls-2
+306.0,3,Florida,,50,45,,Nov 03,,,,,,,,Emerson Coll.-3
+305.5,2,Florida,,48,49,,Nov 02,,,,,,,,St. Pete Polls-2
+305.0,7,Florida,,51,44,,Nov 04,,,,,,,,Quinnipiac U.-7
+304.5,4,Florida,,50,46,,Nov 02,,,,,,,,Marist Coll.-4
+303.5,2,Florida,,49,47,,Oct 31,,,,,,,,St. Pete Polls-2
+302.5,4,Florida,,45,49,,Oct 31,,,,,,,,Targoz Market Research-4
+301.5,4,Florida,,50,50,,Oct 30,,,,,,,,Vox Populi-4
+301.0,3,Florida,,50,48,,Oct 29,,,,,,,,Cygnal-3
+301.0,7,Florida,,46,47,,Oct 31,,,,,,,,Harris Interactive-7
+299.5,4,Florida,,45,43,,Oct 28,,,,,,,,Suffolk U.-4
+299.5,6,Florida,,49,47,,Oct 29,,,,,,,,SSRS-6
+297.5,4,Florida,,46,46,,Oct 26,,,,,,,,YouGov-4
+297.5,4,Florida,,47,46,,Oct 26,,,,,,,,U. of North Florida-4
+296.5,2,Florida,,51,42,,Oct 24,,,,,,,,Siena Coll.-2
+294.0,9,Florida,,49,44,,Oct 25,,,,,,,,Ipsos-9
+293.5,2,Florida,,48,49,,Oct 21,,,,,,,,St. Pete Polls-2
+292.5,4,Florida,,41,42,,Oct 21,,,,,,,,Florida Atlantic U.-4
+292.5,4,Florida,,49,41,,Oct 21,,,,,,,,SurveyUSA-4
+292.5,8,Florida,,46,45,,Oct 23,,,,,,,,Strategic Research Assoc.-8
+292.0,5,Florida,,52,46,,Oct 21,,,,,,,,Quinnipiac U.-5
+291.5,4,Florida,,45,47,,Oct 20,,,,,,,,Schroth Eldon-4
+291.0,5,Florida,,50,45,,Oct 20,,,,,,,,SSRS-5
+288.5,2,Florida,,47,49,,Oct 16,,,,,,,,St. Pete Polls-2
+276.0,5,Florida,,45,46,,Oct 05,,,,,,,,Florida Southern Coll.-5
+272.5,2,Florida,,47,47,,Sep 30,,,,,,,,St. Pete Polls-2
+272.0,3,Florida,,48,44,,Sep 30,,,,,,,,PPP-3
+268.5,4,Florida,,47,46,,Sep 27,,,,,,,,Mason Dixon-4
+268.5,14,Florida,,48,45,,Oct 02,,,,,,,,Kaiser Family Foundation-14
+266.5,14,Florida,,45,44,,Sep 30,,,,,,,,Strategic Research Assoc.-14
+265.0,5,Florida,,53,46,,Sep 24,,,,,,,,Quinnipiac U.-5
+261.0,3,Florida,,45,45,,Sep 19,,,,,,,,U. of North Florida-3
+261.0,5,Florida,,48,45,,Sep 20,,,,,,,,Marist Coll.-5
+257.5,4,Florida,,41,42,,Sep 16,,,,,,,,Florida Atlantic U.-4
+253.5,2,Florida,,45,44,,Sep 11,,,,,,,,Pulse Opinion Research-2
+251.5,8,Florida,,45,46,,Sep 12,,,,,,,,Ipsos-8
+251.0,3,Florida,,44,46,,Sep 09,,,,,,,,SurveyUSA-3
+244.0,5,Florida,,49,49,,Sep 03,,,,,,,,Quinnipiac U.-5
+241.5,2,Florida,,46,45,,Aug 30,,,,,,,,PPP-2
+241.5,2,Florida,,47,47,,Aug 30,,,,,,,,St. Pete Polls-2
+230.0,5,Florida,,39,45,,Aug 20,,,,,,,,Florida Atlantic U.-5
+205.5,2,Florida,,44,47,,Jul 25,,,,,,,,Mason Dixon-2
+201.5,2,Florida,,40,44,,Jul 21,,,,,,,,Florida Atlantic U.-2
+171.5,4,Florida,,40,42,,Jun 22,,,,,,,,YouGov-4
+170.0,5,Florida,,49,45,,Jun 21,,,,,,,,Marist Coll.-5
+149.5,2,Florida,,39,40,,May 30,,,,,,,,Morning Consult-2
+124.5,2,Florida,,45,45,,May 05,,,,,,,,Florida Atlantic U.-2
+100.5,2,Florida,,50,44,,Apr 11,,,,,,,,PPP-2
+ 63.0,7,Florida,,41,43,,Mar 07,,,,,,,,Clearview Research-7
+ 55.5,4,Florida,,46,42,,Feb 26,,,,,,,,Quinnipiac U.-4
+ 33.5,4,Florida,,34,44,,Feb 04,,,,,,,,Florida Atlantic U.-4
+ 32.0,7,Florida,,48,42,,Feb 04,,,,,,,,U. of North Florida-7
+ 31.0,3,Florida,,45,44,,Feb 01,,,,,,,,Mason Dixon-3
+317.0,1,Hawaii,,71,29,,Nov 13,,,,,,,,Election 2018-1
+317.0,1,Indiana,,44,52,04,Nov 13,,,,,,,,Election 2018-1
+301.5,4,Indiana,,45,38,,Oct 30,,,,,,,,Fox News-4
+301.0,7,Indiana,,42,42,,Oct 31,,,,,,,,Harris Interactive-7
+299.5,2,Indiana,,46,49,,Oct 27,,,,,,,,Cygnal-2
+299.0,5,Indiana,,45,42,07,Oct 28,,,,,,,,Marist-5
+297.5,4,Indiana,,43,46,,Oct 26,,,,,,,,YouGov-4
+287.0,3,Indiana,,55,45,,Oct 15,,,,,,,,Vox Populi-3
+287.0,5,Indiana,,41,40,,Oct 16,,,,,,,,SurveyUSA-5
+273.5,4,Indiana,,43,41,,Oct 02,,,,,,,,Fox News-4
+259.0,9,Indiana,,46,43,,Sep 20,,,,,,,,Ipsos-9
+252.5,4,Indiana,,43,45,,Sep 11,,,,,,,,Fox News-4
+239.5,4,Indiana,,44,41,,Aug 29,,,,,,,,Marist Coll.-4
+317.0,1,Maine,,55,35,10,Nov 13,,,,,,,,Election 2018-1
+301.0,3,Maine,,50,37,,Oct 29,,,,,,,,Emerson Coll.-3
+285.0,9,Maine,,41,27,,Oct 16,,,,,,,,Critical Insights-9
+277.0,7,Maine,,57,30,,Oct 07,,,,,,,,Pan Atlantic SMS-7
+216.0,5,Maine,,52,25,,Aug 06,,,,,,,,Suffolk U.-5
+317.0,1,Maryland,,64,31,04,Nov 13,,,,,,,,Election 2018-1
+276.5,6,Maryland,,49,22,,Oct 06,,,,,,,,Gonzales Research-6
+256.5,6,Maryland,,56,17,,Sep 16,,,,,,,,Goucher College-6
+317.0,1,Massachusetts,,61,36,03,Nov 13,,,,,,,,Election 2018-1
+299.5,4,Massachusetts,,54,32,,Oct 28,,,,,,,,MassInc-4
+299.0,5,Massachusetts,,56,34,,Oct 28,,,,,,,,Suffolk U.-5
+291.5,18,Massachusetts,,57,27,,Oct 27,,,,,,,,Western New England U.-18
+277.0,7,Massachusetts,,56,31,,Oct 07,,,,,,,,U. of Mass.-7
+262.0,5,Massachusetts,,56,30,,Sep 21,,,,,,,,MassINC-5
+258.0,5,Massachusetts,,54,24,,Sep 17,,,,,,,,Suffolk U.-5
+171.5,4,Massachusetts,,60,29,,Jun 22,,,,,,,,MassINC-4
+317.0,1,Michigan,,52,46,01,Nov 13,,,,,,,,Election 2018-1
+299.0,3,Michigan,,53,36,,Oct 27,,,,,,,,Glengariff Group-3
+298.0,3,Michigan,,52,43,,Oct 26,,,,,,,,Emerson Coll.-3
+293.5,6,Michigan,,49,42,,Oct 23,,,,,,,,EPIC MRA-6
+290.5,10,Michigan,,49,42,,Oct 22,,,,,,,,Michigan State U.-10
+289.0,5,Michigan,,53,37,,Oct 18,,,,,,,,Marketing Resource Grp.-5
+274.0,3,Michigan,,53,35,,Oct 02,,,,,,,,Glengariff Group-3
+266.0,5,Michigan,,56,33,,Sep 25,,,,,,,,EPIC MRA-5
+262.0,11,Michigan,,55,35,,Sep 24,,,,,,,,Ipsos-11
+249.0,3,Michigan,,56,33,,Sep 07,,,,,,,,Glengariff Group-3
+201.0,3,Michigan,,47,29,,Jul 21,,,,,,,,Emerson Coll.-3
+198.0,5,Michigan,,55,37,,Jul 19,,,,,,,,Marist Coll.-5
+ 17.5,4,Michigan,,51,30,,Jan 19,,,,,,,,Glengariff Group-4
+317.0,1,Minnesota,,60,36,03,Nov 13,,,,,,,,Election 2018-1
+303.0,3,Minnesota,,57,34,,Oct 31,,,,,,,,SurveyUSA-3
+289.0,3,Minnesota,,56,33,,Oct 17,,,,,,,,Mason Dixon-3
+275.0,5,Minnesota,,60,32,,Oct 04,,,,,,,,Marist Coll.-5
+254.0,3,Minnesota,,60,30,,Sep 12,,,,,,,,Mason Dixon-3
+250.0,3,Minnesota,,53,38,,Sep 08,,,,,,,,SurveyUSA-3
+230.5,4,Minnesota,,54,34,,Aug 20,,,,,,,,Suffolk U.-4
+221.5,4,Minnesota,,50,26,,Aug 11,,,,,,,,Emerson Coll.-4
+317.0,1,Minnesota-special,,54,42,04,Nov 13,,,,,,,,Election 2018-1
+303.0,3,Minnesota-special,,48,40,,Oct 31,,,,,,,,SurveyUSA-3
+289.0,3,Minnesota-special,,47,41,,Oct 17,,,,,,,,Mason Dixon-3
+275.0,5,Minnesota-special,,54,38,,Oct 04,,,,,,,,Marist Coll.-5
+254.0,3,Minnesota-special,,44,37,,Sep 12,,,,,,,,Mason Dixon-3
+250.0,3,Minnesota-special,,48,39,,Sep 08,,,,,,,,SurveyUSA-3
+230.5,4,Minnesota-special,,44,37,,Aug 20,,,,,,,,Suffolk U.-4
+221.5,4,Minnesota-special,,32,28,,Aug 11,,,,,,,,Emerson Coll.-4
+198.0,5,Minnesota-special,,49,35,,Jul 19,,,,,,,,Marist Coll.-5
+  1.0,1,Minnesota-special,,53,43,,Jan 01,,,,,,,,Election 2014-1
+317.0,1,Mississippi,,39,59,01,Nov 13,,,,,,,,Election 2018-1
+288.5,6,Mississippi,,31,57,,Oct 18,,,,,,,,Marist Coll.-6
+211.5,2,Mississippi,,32,53,,Jul 31,,,,,,,,Triumph Campaigns-2
+100.5,2,Mississippi,,31,48,,Apr 11,,,,,,,,Triumph Campaigns-2
+317.0,1,Mississippi-special,,46,54,,Nov 13,,,,,,,,Election 2018-1
+288.5,6,Mississippi-special,,29,38,,Oct 18,,,,,,,,Marist Coll.-6
+211.5,2,Mississippi-special,,34,48,,Jul 31,,,,,,,,Triumph Campaigns-2
+103.0,3,Mississippi-special,,34,46,,Apr 14,,,,,,,,Mason Dixon-3
+100.5,2,Mississippi-special,,36,42,,Apr 11,,,,,,,,Triumph Campaigns-2
+  1.0,1,Mississippi-special,,38,60,,Jan 01,,,,,,,,Election 2014-1
+317.0,1,Missouri,,46,52,01,Nov 13,,,,,,,,Election 2018-1
+306.0,3,Missouri,,46,49,,Nov 03,,,,,,,,Emerson Coll.-3
+304.0,3,Missouri,,47,44,,Nov 01,,,,,,,,Marist Coll.-3
+301.5,4,Missouri,,43,43,01,Oct 30,,,,,,,,Fox News-4
+301.0,7,Missouri,,46,44,,Oct 31,,,,,,,,Harris Interactive-7
+299.5,2,Missouri,,46,49,,Oct 27,,,,,,,,Cygnal-2
+278.5,2,Missouri,,42,44,,Oct 06,,,,,,,,1st Tuesday Campaigns-2
+275.0,11,Missouri,,44,45,,Oct 07,,,,,,,,Ipsos-11
+273.5,4,Missouri,,43,43,,Oct 02,,,,,,,,Fox News-4
+270.0,5,Missouri,,47,44,,Sep 29,,,,,,,,SSRS-5
+255.0,5,Missouri,,45,45,,Sep 14,,,,,,,,YouGov-5
+252.5,4,Missouri,,44,41,,Sep 11,,,,,,,,Fox News-4
+238.5,4,Missouri,,44,40,,Aug 28,,,,,,,,Marist Coll.-4
+220.5,2,Missouri,,47,47,,Aug 09,,,,,,,,Missouri Scout-2
+127.5,6,Missouri,,48,44,,May 10,,,,,,,,Missouri Scout-6
+117.5,4,Missouri,,45,45,,Apr 29,,,,,,,,Emerson Coll.-4
+109.5,2,Missouri,,48,44,,Apr 20,,,,,,,,Missouri Scout-2
+ 95.0,3,Missouri,,45,44,,Apr 06,,,,,,,,Mason Dixon-3
+  8.5,2,Missouri,,45,44,,Jan 09,,,,,,,,PPP-2
+317.0,1,Montana,,49,48,,Nov 13,,,,,,,,Election 2018-1
+301.0,7,Montana,,48,41,,Oct 31,,,,,,,,Harris Interactive-7
+287.0,9,Montana,,49,39,,Oct 18,,,,,,,,U. of Montana-9
+283.5,6,Montana,,47,38,,Oct 13,,,,,,,,Montana State U.-6
+271.0,1,Montana,,49,45,,Sep 28,,,,,,,,PPP-1
+255.0,5,Montana,,47,45,,Sep 14,,,,,,,,YouGov-5
+234.0,19,Montana,,56,32,,Aug 31,,,,,,,,U. of Montana-19
+317.0,1,Nebraska,,38,58,04,Nov 13,,,,,,,,Election 2018-1
+317.0,1,Nevada,,50,45,02,Nov 13,,,,,,,,Election 2018-1
+306.5,4,Nevada,,49,45,,Nov 04,,,,,,,,Emerson Coll.-4
+301.0,7,Nevada,,46,43,,Oct 31,,,,,,,,Harris Interactive-7
+299.5,6,Nevada,,48,45,,Oct 29,,,,,,,,SSRS-6
+288.5,2,Nevada,,48,46,,Oct 16,,,,,,,,PPP-2
+288.5,8,Nevada,,41,47,,Oct 19,,,,,,,,Ipsos-8
+287.0,3,Nevada,,51,49,,Oct 15,,,,,,,,Vox Populi-3
+284.0,3,Nevada,,41,48,,Oct 12,,,,,,,,Emerson Coll.-3
+281.0,1,Nevada,,45,48,,Oct 08,,,,,,,,Siena Coll.-1
+274.5,4,Nevada,,42,44,,Oct 03,,,,,,,,Marist Coll.-4
+270.0,5,Nevada,,47,43,,Sep 29,,,,,,,,SSRS-5
+268.5,14,Nevada,,44,45,,Oct 02,,,,,,,,Kaiser Family Foundation-14
+255.0,11,Nevada,,43,46,,Sep 17,,,,,,,,Ipsos-11
+250.5,6,Nevada,,42,41,,Sep 10,,,,,,,,Suffolk U.-6
+232.5,2,Nevada,,48,43,,Aug 21,,,,,,,,PPP-2
+206.0,9,Nevada,,40,41,,Jul 29,,,,,,,,Suffolk U.-9
+175.0,3,Nevada,,42,41,,Jun 25,,,,,,,,PPP-3
+120.5,2,Nevada,,44,42,,May 01,,,,,,,,PPP-2
+ 75.0,3,Nevada,,44,39,,Mar 17,,,,,,,,PPP-3
+317.0,1,New Jersey,,53,44,01,Nov 13,,,,,,,,Election 2018-1
+305.0,7,New Jersey,,55,40,,Nov 04,,,,,,,,Quinnipiac U.-7
+301.0,3,New Jersey,,54,46,,Oct 29,,,,,,,,Vox Populi-3
+301.0,7,New Jersey,,51,39,,Oct 31,,,,,,,,Stockton U.-7
+298.0,3,New Jersey,,47,42,,Oct 26,,,,,,,,Emerson Coll.-3
+288.5,8,New Jersey,,51,46,,Oct 19,,,,,,,,Rutgers-Eagleton-8
+286.0,5,New Jersey,,49,40,,Oct 15,,,,,,,,Monmouth U.-5
+286.0,7,New Jersey,,51,44,,Oct 16,,,,,,,,Quinnipiac U.-7
+276.5,4,New Jersey,,49,39,,Oct 05,,,,,,,,YouGov-4
+271.5,8,New Jersey,,53,42,,Oct 02,,,,,,,,Quinnipiac U.-8
+271.0,5,New Jersey,,43,37,,Sep 30,,,,,,,,Fairleigh Dickinson U.-5
+266.0,9,New Jersey,,45,43,,Sep 27,,,,,,,,Stockton U.-9
+229.5,6,New Jersey,,43,37,,Aug 20,,,,,,,,Quinnipiac U.-6
+138.5,6,New Jersey,,28,24,,May 21,,,,,,,,Fairleigh Dickinson U.-6
+ 98.0,5,New Jersey,,53,32,,Apr 10,,,,,,,,Monmouth U.-5
+ 69.0,5,New Jersey,,49,32,,Mar 12,,,,,,,,Quinnipiac U.-5
+317.0,1,New Mexico,,54,31,15,Nov 13,,,,,,,,Election 2018-1
+302.0,7,New Mexico,,51,31,,Nov 01,,,,,,,,Research and Polling-7
+298.0,3,New Mexico,,48,32,,Oct 26,,,,,,,,Emerson Coll.-3
+294.5,6,New Mexico,,45,32,,Oct 24,,,,,,,,Pacific Market Research-6
+253.0,7,New Mexico,,47,26,,Sep 13,,,,,,,,Research and Polling-7
+229.5,2,New Mexico,,39,11,,Aug 18,,,,,,,,Emerson Coll.-2
+215.0,5,New Mexico,,47,29,,Aug 05,,,,,,,,Caroll Strategies-5
+317.0,1,New York,,67,33,,Nov 13,,,,,,,,Election 2018-1
+303.0,5,New York,,58,35,,Nov 01,,,,,,,,Siena Coll.-5
+286.0,7,New York,,58,33,,Oct 16,,,,,,,,Quinnipiac U.-7
+266.5,8,New York,,61,29,,Sep 27,,,,,,,,Siena Coll.-8
+195.0,5,New York,,57,30,,Jul 16,,,,,,,,Quinnipiac U.-5
+156.0,3,New York,,61,28,,Jun 06,,,,,,,,Siena Coll.-3
+118.5,6,New York,,58,23,,May 01,,,,,,,,Quinnipiac U.-6
+100.0,5,New York,,58,27,,Apr 12,,,,,,,,Siena Coll.-5
+ 72.5,6,New York,,60,24,,Mar 16,,,,,,,,Siena Coll.-6
+317.0,1,North Dakota,,45,55,,Nov 13,,,,,,,,Election 2018-1
+301.5,4,North Dakota,,42,51,,Oct 30,,,,,,,,Fox News-4
+288.5,8,North Dakota,,40,56,,Oct 19,,,,,,,,Strategic Research Assoc.-8
+273.5,4,North Dakota,,41,53,,Oct 02,,,,,,,,Fox News-4
+265.0,11,North Dakota,,41,51,,Sep 27,,,,,,,,Strategic Research Assoc.-11
+252.5,4,North Dakota,,44,48,,Sep 11,,,,,,,,Fox News-4
+165.0,3,North Dakota,,44,48,,Jun 15,,,,,,,,Mason Dixon-3
+317.0,1,Ohio,,53,47,,Nov 13,,,,,,,,Election 2018-1
+303.5,2,Ohio,,52,42,,Oct 31,,,,,,,,Cygnal-2
+300.0,3,Ohio,,49,43,,Oct 28,,,,,,,,Emerson Coll.-3
+296.0,9,Ohio,,51,32,,Oct 27,,,,,,,,Baldwin Wallace U.-9
+279.0,5,Ohio,,54,36,,Oct 08,,,,,,,,Suffolk U.-5
+276.0,11,Ohio,,50,33,,Oct 08,,,,,,,,Baldwin Wallace U.-11
+265.0,25,Ohio,,43,31,,Oct 04,,,,,,,,U. of Akron-25
+262.0,3,Ohio,,53,42,,Sep 20,,,,,,,,Triton Polling and Res.-3
+261.0,5,Ohio,,49,35,,Sep 20,,,,,,,,Marist Coll.-5
+260.0,9,Ohio,,50,39,,Sep 21,,,,,,,,Ipsos-9
+253.0,11,Ohio,,49,32,,Sep 15,,,,,,,,Baldwin Wallace U.-11
+170.0,5,Ohio,,51,38,,Jun 21,,,,,,,,Marist Coll.-5
+160.5,6,Ohio,,51,34,,Jun 12,,,,,,,,Quinnipiac U.-6
+159.5,6,Ohio,,53,37,,Jun 11,,,,,,,,Suffolk U.-6
+143.0,5,Ohio,,48,34,,May 25,,,,,,,,Fallon Communications-5
+ 77.0,5,Ohio,,52,38,,Mar 20,,,,,,,,SurveyUSA-5
+ 63.5,10,Ohio,,41,29,,Mar 09,,,,,,,,Baldwin Wallace U.-10
+317.0,1,Pennsylvania,,56,43,01,Nov 13,,,,,,,,Election 2018-1
+303.0,5,Pennsylvania,,54,40,,Nov 01,,,,,,,,Muhlenberg Coll.-5
+298.0,7,Pennsylvania,,50,35,,Oct 28,,,,,,,,Franklin+Marshall Coll.-7
+274.5,2,Pennsylvania,,47,32,,Oct 02,,,,,,,,Morning Consult-2
+263.0,7,Pennsylvania,,50,33,,Sep 23,,,,,,,,Franklin+Marshall Coll.-7
+259.0,7,Pennsylvania,,53,35,,Sep 19,,,,,,,,Muhlenberg Coll.-7
+259.0,9,Pennsylvania,,53,37,,Sep 20,,,,,,,,Ipsos-9
+255.5,2,Pennsylvania,,52,38,,Sep 13,,,,,,,,Pulse Opinion Research-2
+235.0,7,Pennsylvania,,48,29,,Aug 26,,,,,,,,Franklin+Marshall Coll.-7
+226.0,5,Pennsylvania,,53,38,,Aug 16,,,,,,,,Marist Coll.-5
+174.0,5,Pennsylvania,,47,32,,Jun 25,,,,,,,,Suffolk U.-5
+158.0,7,Pennsylvania,,44,27,,Jun 10,,,,,,,,Franklin+Marshall Coll.-7
+ 98.0,9,Pennsylvania,,48,32,,Apr 12,,,,,,,,Morning Call-9
+ 81.5,8,Pennsylvania,,43,25,,Mar 26,,,,,,,,Franklin+Marshall Coll.-8
+ 74.5,2,Pennsylvania,,54,36,,Mar 16,,,,,,,,PPP-2
+317.0,1,Rhode Island,,62,38,,Nov 13,,,,,,,,Election 2018-1
+295.0,5,Rhode Island,,55,36,,Oct 24,,,,,,,,Fleming and Assocs.-5
+280.0,5,Rhode Island,,56,32,,Oct 09,,,,,,,,SocialSphere-5
+274.5,10,Rhode Island,,57,33,,Oct 06,,,,,,,,U. of New Hampshire-10
+258.5,4,Rhode Island,,54,35,,Sep 17,,,,,,,,Fleming and Assocs.-4
+152.5,6,Rhode Island,,54,32,,Jun 04,,,,,,,,SocialSphere-6
+317.0,1,Tennessee,,44,55,,Nov 13,,,,,,,,Election 2018-1
+302.5,4,Tennessee,,49,49,,Oct 31,,,,,,,,Targoz Market Research-4
+302.0,3,Tennessee,,44,52,,Oct 30,,,,,,,,Emerson Coll.-3
+301.5,4,Tennessee,,41,50,,Oct 30,,,,,,,,Fox News-4
+301.0,3,Tennessee,,47,53,,Oct 29,,,,,,,,Vox Populi-3
+299.5,2,Tennessee,,45,51,,Oct 27,,,,,,,,Cygnal-2
+299.5,6,Tennessee,,45,49,,Oct 29,,,,,,,,SSRS-6
+298.5,8,Tennessee,,44,44,,Oct 29,,,,,,,,East Tennessee State U.-8
+298.0,5,Tennessee,,46,51,,Oct 27,,,,,,,,Marist-5
+283.5,4,Tennessee,,48,52,,Oct 12,,,,,,,,Targoz Market Research-4
+283.5,6,Tennessee,,44,43,,Oct 13,,,,,,,,SSRS-6
+282.5,4,Tennessee,,40,54,,Oct 11,,,,,,,,Siena Coll.-4
+280.5,8,Tennessee,,44,47,,Oct 11,,,,,,,,Ipsos-8
+276.5,4,Tennessee,,42,50,,Oct 05,,,,,,,,YouGov-4
+273.5,4,Tennessee,,43,48,,Oct 02,,,,,,,,Fox News-4
+256.0,5,Tennessee,,50,45,,Sep 15,,,,,,,,SSRS-5
+254.0,3,Tennessee,,45,48,,Sep 12,,,,,,,,Triton Polling and Res.-3
+252.5,4,Tennessee,,44,47,,Sep 11,,,,,,,,Fox News-4
+238.5,4,Tennessee,,48,46,,Aug 28,,,,,,,,Marist Coll.-4
+193.5,4,Tennessee,,43,37,,Jul 14,,,,,,,,Emerson Coll.-4
+191.5,2,Tennessee,,43,37,,Jul 11,,,,,,,,PPP-2
+120.5,2,Tennessee,,46,43,,May 01,,,,,,,,PPP-2
+108.0,3,Tennessee,,46,43,,Apr 19,,,,,,,,Mason Dixon-3
+ 84.5,8,Tennessee,,45,35,,Mar 29,,,,,,,,Middle Tenn. State U.-8
+ 74.5,2,Tennessee,,46,41,,Mar 16,,,,,,,,PPP-2
+317.0,1,Texas,,48,51,01,Nov 13,,,,,,,,Election 2018-1
+302.0,3,Texas,,47,50,,Oct 30,,,,,,,,Emerson Coll.-3
+298.5,2,Texas,,42,52,,Oct 26,,,,,,,,Dixie Strategies-2
+298.0,7,Texas,,46,51,,Oct 28,,,,,,,,Quinnipiac U.-7
+294.5,14,Texas,,43,47,,Oct 28,,,,,,,,U. of Texas-14
+291.0,7,Texas,,45,51,,Oct 21,,,,,,,,U. of Texas-7
+288.0,7,Texas,,44,49,,Oct 18,,,,,,,,Ipsos-7
+284.0,5,Texas,,45,52,,Oct 13,,,,,,,,SSRS-5
+282.5,4,Texas,,43,51,,Oct 11,,,,,,,,Siena Coll.-4
+281.0,1,Texas,,42,54,,Oct 08,,,,,,,,Siena Coll.-1
+279.0,7,Texas,,45,54,,Oct 09,,,,,,,,Quinnipiac U.-7
+276.5,4,Texas,,44,50,,Oct 05,,,,,,,,YouGov-4
+276.0,5,Texas,,42,47,,Oct 05,,,,,,,,Emerson Coll.-5
+262.5,2,Texas,,46,49,,Sep 20,,,,,,,,PPP-2
+257.0,7,Texas,,45,54,,Sep 17,,,,,,,,Quinnipiac U.-7
+253.0,9,Texas,,47,45,,Sep 14,,,,,,,,Ipsos-9
+250.5,4,Texas,,44,47,,Sep 09,,,,,,,,Crosswind Media-4
+250.5,4,Texas,,44,47,,Sep 09,,,,,,,,Pulse Opinion Research-4
+235.5,4,Texas,,37,38,,Aug 25,,,,,,,,Emerson Coll.-4
+226.0,5,Texas,,45,49,,Aug 16,,,,,,,,Marist Coll.-5
+213.5,2,Texas,,42,46,,Aug 02,,,,,,,,PPP-2
+209.5,6,Texas,,43,49,,Jul 31,,,,,,,,Quinnipiac U.-6
+198.5,18,Texas,,39,41,,Jul 26,,,,,,,,Texas Lyceum-18
+171.5,4,Texas,,40,50,,Jun 22,,,,,,,,YouGov-4
+163.5,10,Texas,,36,41,,Jun 17,,,,,,,,U. of Texas-10
+146.0,7,Texas,,39,50,,May 29,,,,,,,,Quinnipiac U.-7
+141.5,2,Texas,,42,48,,May 22,,,,,,,,PPP-2
+140.0,3,Texas,,40,47,,May 21,,,,,,,,JMC Enterprises-3
+104.5,6,Texas,,44,47,,Apr 17,,,,,,,,Quinnipiac U.-6
+ 96.0,7,Texas,,30,30,,Apr 09,,,,,,,,Texas Lyceum-7
+ 17.5,2,Texas,,37,45,,Jan 18,,,,,,,,PPP-2
+317.0,1,Utah,,32,62,03,Nov 13,,,,,,,,Election 2018-1
+279.0,7,Utah,,23,59,,Oct 09,,,,,,,,U. of Utah-7
+238.5,10,Utah,,29,55,,Aug 31,,,,,,,,Dan Jones-10
+231.0,17,Utah,,19,59,,Aug 27,,,,,,,,Lighthouse Research-17
+165.5,8,Utah,,20,58,,Jun 18,,,,,,,,U. of Utah-8
+ 43.5,8,Utah,,14,60,,Feb 16,,,,,,,,Dan Jones-8
+ 16.5,4,Utah,,19,64,,Jan 18,,,,,,,,U. of Utah-4
+317.0,1,Vermont,,67,27,01,Nov 13,,,,,,,,Election 2018-1
+282.5,10,Vermont,,60,19,,Oct 14,,,,,,,,Braun Research-10
+317.0,1,Virginia,,57,41,02,Nov 13,,,,,,,,Election 2018-1
+251.5,8,Virginia,,54,39,,Sep 12,,,,,,,,Princeton Survey-8
+249.5,6,Virginia,,52,36,,Sep 09,,,,,,,,SSRS-6
+227.5,8,Virginia,,51,34,,Aug 19,,,,,,,,Roanoke Coll.-8
+201.0,21,Virginia,,49,26,,Jul 30,,,,,,,,Virginia Commonwealth U.-21
+174.0,5,Virginia,,54,36,,Jun 25,,,,,,,,Quinnipiac U.-5
+145.0,11,Virginia,,44,33,,May 30,,,,,,,,Roanoke Coll.-11
+ 47.5,24,Virginia,,56,32,,Feb 28,,,,,,,,Christopher Newport U.-24
+317.0,1,Washington,,59,41,,Nov 13,,,,,,,,Election 2018-1
+279.5,6,Washington,,53,39,,Oct 09,,,,,,,,Elway Poll-6
+142.5,2,Washington,,52,36,,May 23,,,,,,,,PPP-2
+317.0,1,West Virginia,,50,46,04,Nov 13,,,,,,,,Election 2018-1
+302.5,4,West Virginia,,47,42,,Oct 31,,,,,,,,Emerson Coll.-4
+297.5,12,West Virginia,,45,40,,Oct 30,,,,,,,,Research America Inc.-12
+288.5,8,West Virginia,,52,36,,Oct 19,,,,,,,,Strategic Research Assoc.-8
+287.0,3,West Virginia,,53,47,,Oct 15,,,,,,,,Vox Populi-3
+264.5,10,West Virginia,,46,38,,Sep 26,,,,,,,,Strategic Research Assoc.-10
+257.0,3,West Virginia,,45,33,,Sep 15,,,,,,,,Emerson Coll.-3
+236.5,4,West Virginia,,47,41,,Aug 26,,,,,,,,Harper Polling-4
+233.0,11,West Virginia,,46,38,,Aug 26,,,,,,,,R.L. Repass-11
+167.5,6,West Virginia,,50,43,,Jun 19,,,,,,,,Monmouth U.-6
+163.5,2,West Virginia,,46,35,,Jun 13,,,,,,,,PPP-2
+317.0,1,Wisconsin,,55,45,,Nov 13,,,,,,,,Election 2018-1
+303.0,3,Wisconsin,,53,44,,Oct 31,,,,,,,,Emerson Coll.-3
+299.0,5,Wisconsin,,54,43,,Oct 28,,,,,,,,Marquette Law School-5
+288.0,7,Wisconsin,,54,39,,Oct 18,,,,,,,,Ipsos-7
+283.5,2,Wisconsin,,52,42,,Oct 11,,,,,,,,PPP-2
+278.0,5,Wisconsin,,53,43,,Oct 07,,,,,,,,Marquette Law School-5
+274.5,4,Wisconsin,,54,40,,Oct 03,,,,,,,,Marist Coll.-4
+262.0,11,Wisconsin,,52,39,,Sep 24,,,,,,,,Ipsos-11
+257.0,5,Wisconsin,,53,42,,Sep 16,,,,,,,,Marquette Law School-5
+233.0,7,Wisconsin,,50,42,,Aug 24,,,,,,,,Suffolk U.-7
+229.0,5,Wisconsin,,49,47,,Aug 19,,,,,,,,Marquette Law School-5
+208.0,3,Wisconsin,,50,36,,Jul 28,,,,,,,,Emerson Coll.-3
+198.0,5,Wisconsin,,55,38,,Jul 19,,,,,,,,Marist Coll.-5
+166.0,5,Wisconsin,,49,40,,Jun 17,,,,,,,,Marquette Law School-5
+ 74.5,2,Wisconsin,,51,39,,Mar 16,,,,,,,,PPP-2
+317.0,1,Wyoming,,30,67,03,Nov 13,,,,,,,,Election 2018-1
