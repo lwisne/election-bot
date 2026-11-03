@@ -1,0 +1,9 @@
+{
+  "name": "election-bot",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "dependencies": {
+    "csv-parse": "^7.0.3"
+  }
+}
